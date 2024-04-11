@@ -9,10 +9,12 @@ import lombok.Setter;
 
 
 @Data
+@Getter
+@Setter
 @AllArgsConstructor
 public class UsuarioRequest {
 	
-	private String name;
+	private String name;	
 	private String email;
 	private String password;
 	public List<PhoneRequest> phones;

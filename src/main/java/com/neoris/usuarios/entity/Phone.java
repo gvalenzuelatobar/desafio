@@ -1,6 +1,7 @@
 package com.neoris.usuarios.entity;
 
 import java.io.Serializable;
+import java.util.UUID;
 
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
@@ -33,11 +34,10 @@ public class Phone implements Serializable{
     private Integer citycode; 
 	
 	@Column(name = "CONTRYCODE")
-    private Integer contrycode;
-	
+    private Integer contrycode;	
 	
 	@Column(name = "ID_USUARIO")
-    private String idUsuario;
+    private UUID idUsuario;
 
 	
 }

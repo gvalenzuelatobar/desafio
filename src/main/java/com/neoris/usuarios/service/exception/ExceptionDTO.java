@@ -2,10 +2,12 @@ package com.neoris.usuarios.service.exception;
 
 import org.springframework.http.HttpStatus;
 
+import lombok.AllArgsConstructor;
 import lombok.Data;
 
 
 @Data
+@AllArgsConstructor
 public class ExceptionDTO extends Exception {	
 	
 	private static final long serialVersionUID = 1L;
