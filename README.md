@@ -28,6 +28,9 @@ Segun el menseaje, se analizo que al usuario de entrada se le asigna una lista d
 
 Pruebas con Postman
 
+
+Inicio Pruebas para el ingreso a la BD, se crea el usuario y sus telefonos, si manda el mismo mensaje
+2 veces, sale un error, se debe modificar el Mail
 - Para el ingreso del mensaje
 POST
 http://localhost:8080/usuario/ingreso

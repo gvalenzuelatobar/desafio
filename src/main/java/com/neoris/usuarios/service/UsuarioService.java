@@ -1,5 +1,6 @@
 package com.neoris.usuarios.service;
 
+import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
@@ -33,6 +34,8 @@ private final Logger log = LoggerFactory.getLogger(UsuarioService.class);
 	
 	@Autowired
 	JwtService jwtService;
+	
+	private SimpleDateFormat formatter = new SimpleDateFormat("dd-MM-yyyy HH:mm");
 	
 	public ArrayList<Usuario> findAll() {
 		
